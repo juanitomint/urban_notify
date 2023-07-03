@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "urban-notify"
+version = "0.1.0"
+description = "Notify on Server Events"
+authors = ["Juan Borda <juanignacioborda@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "urban_notify"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyq3serverlist = "^0.3.2"
+python-dotenv = "^1.0.0"
+pygame = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
